@@ -80,10 +80,11 @@ WSGI_APPLICATION = 'firstProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DjangoFirstProject',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': 'dbtg2mhdus8t0r',
+        'USER': 'gcdelkiidpphjd',
+        'PASSWORD': '07d71b16335622ba219718360cf38d9ed4c20d61317164d6869c7c059a99da1f',
+        'HOST': 'ec2-52-204-72-14.compute-1.amazonaws.com',
+        'PORT' : '5432'
     }
 }
 
